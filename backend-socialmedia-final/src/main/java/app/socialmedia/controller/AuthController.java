@@ -50,9 +50,4 @@ public class AuthController {
       return new ResponseEntity<Response>(loginResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
   }
-
-  @GetMapping(value = "/hello")
-  public String hello(){
-    return  "hello worlddd" ;
-  }
 }
