@@ -29,8 +29,7 @@ public class UserService {
                 updateUser.setFullName(user.getFullName());
             if(user.getUserName()!=null)
                 updateUser.setUserName(user.getUserName());
-            if(user.getProfilePicUrl()!=null)
-                updateUser.setProfilePicUrl(user.getProfilePicUrl());
+            updateUser.setProfilePicUrl(user.getProfilePicUrl());
             if(user.getPhoneNumber()!=null)
                 updateUser.setPhoneNumber(user.getPhoneNumber());
             if(user.getPassword()!=null)
